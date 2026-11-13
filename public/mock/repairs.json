@@ -1,0 +1,5 @@
+[
+  { "id": 1, "roomId": 101, "desc": "水龙头漏水，关不紧", "status": "待处理", "date": "2026-11-10", "reporterId": 301 },
+  { "id": 2, "roomId": 102, "desc": "灯管不亮", "status": "处理中", "date": "2026-11-11", "reporterId": 304 },
+  { "id": 3, "roomId": 201, "desc": "窗户合页松动", "status": "已完成", "date": "2026-11-05", "reporterId": 305 }
+]

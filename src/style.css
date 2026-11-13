@@ -1,0 +1,27 @@
+/* 基础重置（课程骨架级，不做多余设计） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family: -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  color: #24292f;
+  background: #fff;
+}
+
+/* 手机壳容器：Vant 移动端页统一在此容器内展示（题目册 T4 移动端场景） */
+.phone-shell {
+  max-width: 375px;
+  margin: 24px auto;
+  border: 10px solid #1f2328;
+  border-radius: 32px;
+  overflow: hidden;
+  min-height: 640px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgba(24, 60, 110, 0.18);
+}

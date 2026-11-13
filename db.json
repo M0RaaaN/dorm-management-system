@@ -1,0 +1,29 @@
+{
+  "users": [
+    { "id": 1, "username": "student01", "password": "123456", "role": "student", "name": "陈晓明", "studentId": "32605150601" },
+    { "id": 2, "username": "manager01", "password": "123456", "role": "manager", "name": "王宿管" }
+  ],
+  "buildings": [
+    { "id": 1, "name": "1栋（男生楼）", "manager": "王宿管", "totalRooms": 2 },
+    { "id": 2, "name": "2栋（女生楼）", "manager": "李宿管", "totalRooms": 2 }
+  ],
+  "rooms": [
+    { "id": 101, "buildingId": 1, "roomNo": "101", "capacity": 4, "students": [301, 302, 303] },
+    { "id": 102, "buildingId": 1, "roomNo": "102", "capacity": 4, "students": [304] },
+    { "id": 201, "buildingId": 2, "roomNo": "201", "capacity": 4, "students": [305, 306] },
+    { "id": 202, "buildingId": 2, "roomNo": "202", "capacity": 4, "students": [] }
+  ],
+  "students": [
+    { "id": 301, "name": "陈晓明", "studentId": "32605150601", "gender": "男", "buildingId": 1, "roomId": 101, "phone": "13800000001" },
+    { "id": 302, "name": "李伟杰", "studentId": "32605150602", "gender": "男", "buildingId": 1, "roomId": 101, "phone": "13800000002" },
+    { "id": 303, "name": "张浩然", "studentId": "32605150603", "gender": "男", "buildingId": 1, "roomId": 101, "phone": "13800000003" },
+    { "id": 304, "name": "刘子昂", "studentId": "32605150604", "gender": "男", "buildingId": 1, "roomId": 102, "phone": "13800000004" },
+    { "id": 305, "name": "王雨欣", "studentId": "32605150605", "gender": "女", "buildingId": 2, "roomId": 201, "phone": "13800000005" },
+    { "id": 306, "name": "赵思涵", "studentId": "32605150606", "gender": "女", "buildingId": 2, "roomId": 201, "phone": "13800000006" }
+  ],
+  "repairs": [
+    { "id": 1, "roomId": 101, "desc": "水龙头漏水，关不紧", "status": "待处理", "date": "2026-11-10", "reporterId": 301 },
+    { "id": 2, "roomId": 102, "desc": "灯管不亮", "status": "处理中", "date": "2026-11-11", "reporterId": 304 },
+    { "id": 3, "roomId": 201, "desc": "窗户合页松动", "status": "已完成", "date": "2026-11-05", "reporterId": 305 }
+  ]
+}

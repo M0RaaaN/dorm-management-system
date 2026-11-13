@@ -1,0 +1,8 @@
+[
+  { "id": 301, "name": "陈晓明", "studentId": "32605150601", "gender": "男", "buildingId": 1, "roomId": 101, "phone": "13800000001" },
+  { "id": 302, "name": "李伟杰", "studentId": "32605150602", "gender": "男", "buildingId": 1, "roomId": 101, "phone": "13800000002" },
+  { "id": 303, "name": "张浩然", "studentId": "32605150603", "gender": "男", "buildingId": 1, "roomId": 101, "phone": "13800000003" },
+  { "id": 304, "name": "刘子昂", "studentId": "32605150604", "gender": "男", "buildingId": 1, "roomId": 102, "phone": "13800000004" },
+  { "id": 305, "name": "王雨欣", "studentId": "32605150605", "gender": "女", "buildingId": 2, "roomId": 201, "phone": "13800000005" },
+  { "id": 306, "name": "赵思涵", "studentId": "32605150606", "gender": "女", "buildingId": 2, "roomId": 201, "phone": "13800000006" }
+]

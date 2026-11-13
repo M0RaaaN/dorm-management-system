@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "1栋（男生楼）", "manager": "王宿管", "totalRooms": 2 },
+  { "id": 2, "name": "2栋（女生楼）", "manager": "李宿管", "totalRooms": 2 }
+]
