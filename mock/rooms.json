@@ -1,0 +1,6 @@
+[
+  { "id": 101, "buildingId": 1, "roomNo": "101", "capacity": 4, "students": [301, 302, 303] },
+  { "id": 102, "buildingId": 1, "roomNo": "102", "capacity": 4, "students": [304] },
+  { "id": 201, "buildingId": 2, "roomNo": "201", "capacity": 4, "students": [305, 306] },
+  { "id": 202, "buildingId": 2, "roomNo": "202", "capacity": 4, "students": [] }
+]

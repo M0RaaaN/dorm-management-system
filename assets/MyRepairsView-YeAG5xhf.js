@@ -1,0 +1,1 @@
+import{a as e,n as t,o as n,r,s as i,t as a}from"./index-ChQCpIqy.js";var o={name:`MyRepairsView`},s={style:{padding:`24px`}};function c(a,o,c,l,u,d){let f=i(`el-empty`);return n(),r(`div`,s,[o[0]||=t(`h3`,null,`我的报修`,-1),e(f,{description:`页面建设中（骨架占位）`})])}var l=a(o,[[`render`,c]]);export{l as default};
