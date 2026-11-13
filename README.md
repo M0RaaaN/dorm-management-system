@@ -80,5 +80,3 @@ hash 路由 + base 配置 = 静态平台上刷新不 404。线上演示走 `publ
 - T5 json-server 3001 + axios get/post/put/delete + catch 兜底 + loading ✓（request.js 骨架已就位）
 - T6 Pinia ≥2 仓库 + actions + persist ✓（user 仓库骨架已就位，业务仓库待建）
 - T7 build → preview → 部署上线 —— 部署链路已配好（base + deploy 脚本）
-
-> AI生成
